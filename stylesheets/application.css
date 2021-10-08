@@ -1,0 +1,297 @@
+/**
+* __Colors__
+* Blue Text: 		004276
+* Blue Hover: 		46769B
+* Black Text: 		202020
+* Black Hover: 	494949
+* Image Border: 	BFBFBF
+* Orange Text: 	EB7F32
+* Gold: 					906319
+* SubNav Heading Border Top: 835005
+* SubNav Heading Background:	9A6516
+* SubNav Border Top:					B9A589
+* SubNav Background: 				F2ECE2
+* 
+* __Created By__
+* John Nunemaker, Web Developer, Notre Dame Web Group (http://webgroup.nd.edu)
+* Steve Smith, Senior Web Developer, Notre Dame Web Group (http://webgroup.nd.edu)
+*/
+
+@media screen, projection {
+/**
+* Copyright (c) 2006, Yahoo! Inc. All rights reserved.
+* Code licensed under the BSD License:
+* http://developer.yahoo.net/yui/license.txt
+* read more here: http://developer.yahoo.com/yui/fonts/
+* version: 0.11.0
+*/
+body 														{font:13px arial,helvetica,clean,sans-serif;*font-size:72%;*font:x-small;}
+table 													{font-size:inherit;font:100%;}
+select, input, textarea 				{font:99% arial,helvetica,clean,sans-serif;}
+pre, code 											{font:115% monospace;*font-size:100%;}
+body * 													{line-height:1.22em;}
+/** end Yahoo Fonts */
+
+/**
+* Redeclarations
+*/	
+:link,:visited 									{text-decoration:none;}
+ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
+form,body,html,p,blockquote,
+fieldset,input									{margin:0; padding:0}
+body														{font-family:Georgia,"Times New Roman",Times, serif; background:url(images/body.gif) repeat-x; color:#202020;}
+a																{font-weight:bold; color:#3C4D63; background:transparent url(images/link_underline.gif) repeat-x 0 100%;}
+a:hover 												{color:#036;}
+a img														{border:none;}
+h1 a, h3 a											{color:#004276;}
+h1 a:hover, h3 a:hover 					{color:#46769B}
+h1 															{font-size:222%; color:#004276; margin:0 0 15px;}
+h2															{font-size:152%; margin:0 0 10px;}
+h3															{font-size:122%;}
+h4															{font-size:100%;}
+ul, ol 													{margin:0 0 .9em 35px;}
+
+/**
+* Style Chunks
+*/
+div.clear 											{clear:both;} /* for one IE hack, this angers me !!! */
+div.column											{float:left; display:inline; width:330px; width/**/:/**/290px; padding:0 20px; margin-right:1px;}
+li.sectioned,
+div.sectioned										{background:#fff url(images/dash_horizontal.gif) repeat-x; padding:15px 0;}
+div.flash												{margin:0 0 20px; padding:5px 10px; line-height:1;}
+div.flash p 										{margin:0 !important;}
+div.notice											{background:#B9CBDA;}
+p.quote 												{color:#004276; font-weight:bold; font-size:107%;}
+p.last													{margin-bottom:0 !important;}
+img.image 											{border:1px solid #BFBFBF; padding:4px;}
+img.right												{float:right; margin:0 0 20px 15px;}
+a.subscribe 										{text-transform:uppercase; font-size:85%;}
+a.subscribe img 								{background:#fff; margin:0 0 -7px; padding:2px;}
+a.feed32												{float:right; height:32px;}
+a.plain													{background:none;}
+table														{border-collapse:collapse; margin:0 0 15px; width:100%;}
+table tr th,
+table tr td											{padding:4px 5px; background:#fff url(images/dash_horizontal.gif) repeat-x bottom left;}
+
+/* mark your calender */
+#mark_calendar ul								{list-style-type:none; margin:10px 0 0; padding:0;}
+#mark_calendar li								{margin:0; padding:0;}
+#mark_calendar img							{margin:8px 8px 0 0;}
+
+/* live viewing area */
+form#comment_form 							{margin:0;}
+form#comment_form dt						{margin:0; padding:0;}
+form#comment_form dd						{margin:0 0 10px; padding:0;}
+form#comment_form input.text 		{width:280px; width/**/:/**/276px; padding:2px;}
+textarea#comment_body						{padding:5px; width:280px; width/**/:/**/270px;}
+div#message span								{display:block; background:#FFFFA2; margin:0 0 5px; padding:5px; line-height:1;}
+div#message span.error					{background:#F1B9B9;}
+div#name 												{float:right;}
+div#streaming_formats						{margin:20px 0 0;}
+	
+/* news listing and show views */
+#main div.news									{clear:both; background:#fff url(images/dash_horizontal.gif) repeat-x; padding:15px 0 0;}
+div.news img.sub								{float:right; margin:0 0 10px 15px;}
+div.news .meta									{font-size:85%; color:#999; margin:-10px 0 15px;}
+
+/* speakers page in details controller */
+div.speaker 										{background:#fff url(images/dash_horizontal.gif) repeat-x; padding:15px 0; float:left; clear:both; width:620px;}
+div.speaker img									{float:right; margin:0 0 10px 15px;}
+
+/* home page and sidebar specific */
+div#featured_student						{margin:0 0 0 2px !important;}
+div#featured_student img 				{padding:9px; margin:0 0 .8em;}
+div#jordan_hall p								{line-height:1.1;}
+div#jordan_hall img	 						{float:right; margin:0 0 .6em .6em;}
+div#news a.subscribe						{float:right; margin:-3px 0 0;}
+div#news a:hover 								{color:#EB7F32;}
+div#news div.news 							{margin:0 0 10px;}
+div.news 												{margin:0 0 20px;}
+div.news h4											{color:#EB7F32; font-weight:normal; margin:0 0 2px; line-height:1;}
+div.news h5											{font-size:100%; margin:0 0 .2em;}
+div#features p 									{background:transparent url(images/dash_horizontal.gif) repeat-x 0 100%; margin:0 0 5px; padding:0 0 5px; width:286px;}
+div#features p.last 						{background:none;}
+div#about a											{color:#004276;}
+div#about a:hover 							{color:#46769B;}
+	
+/* secondary navigation */
+#nav_sec h3											{line-height:1; font-size:92%; margin:0 !important;}
+#nav_sec h3 a										{display:block; width:299px; color:#fff; background:none; border-top:2px solid #835005; text-transform:uppercase; color:#fff; border-bottom:1px solid #fff; background:#9A6516; text-align:center; margin:0 !important; padding:9px 0 8px; letter-spacing:.1em;}
+#nav_sec h3 a:hover 						{background:#8D5A0D;}
+#nav_sec ul											{line-height:1; border-top:1px solid #B9A589; background:#F2ECE2; margin:0 0 20px !important; padding:5px 0; list-style:none; float:left; width:100%; display:inline;}
+#nav_sec ul li									{line-height:1; float:left; display:inline; width:299px; width/**/:/**/259px; padding:0 20px;}
+#nav_sec ul li a								{line-height:1; font-size:107%; display:block; float:left; padding:12px 0 11px; text-align:center; background:transparent url(images/nav_sec_a.gif) repeat-x 0 100%; width:100%;}
+#nav_sec ul li a:hover 					{background-color:#F6F1EA;}
+#nav_sec ul li.last a						{background-image:none;}
+
+/* sidebar sections */
+div.secondary_section						{clear:both; float:left; background:transparent url(images/dash_horizontal.gif) repeat-x; padding:15px 0 0; margin:0 0 15px; font-size:96%;}
+div.secondary_section h3				{font-size:114%;}
+div#secondary_jordan_hall p			{padding:4px 0 0;}
+div#secondary_jordan_hall img		{float:right; margin:0 0 0 10px;}
+div#secondary_news							{width:299px;}
+div#secondary_news a.subscribe	{float:right; margin:0 0 -17px;}
+
+/* people in the sidebar on the homepage */
+div.person	 										{clear:left; float:left; display:inline; margin:0 0 4px; width:285px;}
+div.person p										{margin:0 !important; padding:0 0 0 89px;}
+div.person img									{float:left;}
+div.moderator 									{margin:0 0 10px}
+
+/* student bios and such on current efforts */
+div.student											{float:left; clear:left; width:623px;}
+div.student h3									{margin:0; padding:0;}
+div.student img									{float:left;}}
+div.student div.student_info		{margin:0 0 0 130px;}
+div.student_image								{float:right; clear:right; margin:0 0 15px 10px;}
+div.student_image p							{color:#666; font-size:85%; text-align:center; margin:0;}
+div.student_ind h3							{margin:10px 0;}
+div.student_images a						{background:none;}
+div.student_images a:hover img	{border-color:#004276;}
+div.image a.lbAction 						{background:none;}
+div.secondary_section div.student {margin:0 0 10px; width:299px;}
+
+/* survey and feedback */
+li.feedback ul,
+li.question ul 									{list-style:none; margin:10px 0 0; padding:0;}
+
+/* live photo styles */
+#live_photos										{float:left; margin:0 0 15px;}
+#live_photos .previous					{float:left; margin:-25px 10px 0 0;}
+#live_photos .next							{float:right; margin:-25px 0 0 10px;}
+#photo_nav											{width:250px; padding-top:25px; text-align:center;}
+#photo_links										{clear:both; padding-top:20px;}
+
+/* streaming link styles */
+ul.video												{list-style-type:none; margin:0 0 20px 5px; padding:0;}
+ul.video li											{margin:0 0 10px; line-height:16px;}
+li.high													{background:url(images/high.gif) no-repeat 19px 50%;}
+li.low													{background:url(images/low.gif) no-repeat 19px 50%;}
+ul.video li a										{padding:2px 0 2px 20px; text-decoration:none;}
+ul.video li.qt a								{background:url(images/quicktime.gif) no-repeat 0 50%;}
+ul.video li.ipod a							{background:url(images/ipod.gif) no-repeat 0 50%;}
+ul.video li.wmv a								{background:url(images/wmv.gif) no-repeat 0 50%;}
+
+
+/* errors */
+div#errors											{border:1px solid #900; background:#F6E8E8; margin:0 0 20px; padding:20px;}
+div#errors h3										{margin:-20px -20px 10px; background:#900; color:#fff; font-size:small; font-weight:normal; padding:5px 20px; line-height:1;}
+div#errors ul 									{margin-bottom:0;}
+
+/**
+* Layout
+*/
+#wrapper 												{text-align:center;}
+#header 												{width:993px; height:166px; text-align:left; margin:0 auto; position:relative; background:transparent url(images/header.jpg) no-repeat;}
+#header h2, #header h3,
+#header h4, #header h5 					{margin:0; padding:0; background:none; line-height:1;}
+#header h3 a										{width:311px; height:42px; top:42px; left:50px; background:transparent url(images/notre_dame_forum.gif) no-repeat;}
+#header h2 a 										{width:378px; height:58px; top:29px; left:451px; background:transparent url(images/global_health_crisis.gif) no-repeat;}
+#header h5 a 										{width:103px; height:78px; left:844px; background:transparent url(images/watch_archived_webcast.gif) no-repeat;}
+#header h5 a:hover 							{background-position:0 -78px;}
+#header h3 a, #header h2 a,
+#header h5 a										{display:block; position:absolute; text-indent:-9999px; overflow:hidden;}
+#header h4 											{display:none;} /* this is show in background image on h3 a */
+
+/* navigation */
+#nav 														{list-style:none; margin:0; padding:0; position:absolute; bottom:0; width:993px; height:44px; background:transparent url(images/nav.gif) no-repeat;}
+#nav li 												{display:inline;}
+#nav a													{display:block; height:44px; background:transparent url(images/nav.gif) no-repeat; position:absolute; text-indent:-9999px; overflow:hidden;}
+#nav li#the a										{background-position:-77px 0px; left:77px; width:145px;}
+#nav li#the a:hover 						{background-position:-77px -44px;}
+#bfacts #nav li#the a,
+#bissue #nav li#the a						{background-position:-77px -88px;}
+#nav li#not a										{background-position:-222px 0px; left:222px; width:142px;}
+#nav li#not a:hover 						{background-position:-222px -44px;}
+#bdetails #nav li#not a					{background-position:-222px -88px;}
+#nav li#cur a										{background-position:-364px 0px; left:364px; width:142px;}
+#nav li#cur a:hover 						{background-position:-364px -44px;}
+#befforts #nav li#cur a					{background-position:-364px -88px;}
+#nav li#tak a										{background-position:-506px 0px; left:506px; width:142px;}
+#nav li#tak a:hover 						{background-position:-506px -44px;}
+#btake_action #nav li#tak a			{background-position:-506px -88px;}
+#nav li#new a										{background-position:-648px 0px; left:648px; width:142px;}
+#nav li#new a:hover 						{background-position:-648px -44px;}
+#bnews #nav li#new a						{background-position:-648px -88px;}
+#nav li#res a										{background-position:-790px 0px; left:790px; width:137px;}
+#nav li#res a:hover 						{background-position:-790px -44px;}
+#bresources #nav li#res a				{background-position:-790px -88px;}
+
+/* facts */
+#facts 													{background:#ebebeb; padding:14px 0; font-size:96%;}
+#facts a												{color:#004276}
+#facts a:hover 									{color:#46769B;}
+
+/* content */
+#content_wrapper 								{width:993px; margin:0 auto; text-align:left;}
+#content 												{float:left; display:inline; width:993px; margin:20px 0 0; background:#fff url(images/content_onecol.gif) repeat-y 100% 0;}
+
+/* main, secondary and tertiary content */
+#main 													{float:left; display:inline; width:663px; width/**/:/**/623px; padding:0 20px;}
+#main *,
+#secondary *,
+#tertiary *											{line-height:1.4;}
+#main p,
+#secondary p,
+#tertiary p											{margin:0 0 .9em;}
+#features, 
+#secondary 											{float:right; display:inline; width:299px; margin-right:8px;}
+#secondary h3 									{clear:both; margin:0 0 .8em;}
+#tertiary 											{clear:both; float:left; display:inline; width:993px;}
+#tertiary h3										{margin:0 0 .9em;}
+#tertiary_inner 								{float:left; display:inline; width:993px; background:transparent url(images/content_twocol.gif) repeat-y;}
+
+/* style three col differently */
+body.three_col #content 				{background-image:url(images/content_twocol.gif);}
+body.three_col #main 						{width:663px; padding:0;}
+body.three_col #main,
+body.three_col #secondary,
+body.three_col #tertiary 				{font-size:96%;}
+body.three_col #main *,
+body.three_col #secondary *,
+body.three_col #tertiary *			{line-height:1.1;}
+body.three_col #tertiary 				{border:solid #fff; border-width:25px 0 0; padding:20px 0 0; background:#fff url(images/dash_horizontal.gif) repeat-x;}
+
+/* string of affiliates at the bottom */
+div#features a									{background:none; font-weight:normal;}
+
+/* footer */
+#footer 												{clear:both; width:993px; margin:0 auto 20px; background:transparent url(images/dash_horizontal.gif) repeat-x; border-top:20px solid #FFF; padding:20px 0 50px; text-align:left; font-size:96%;}
+#footer_inner										{width:464px; margin:0 auto;}
+p#mark 													{float:right;}
+p#mark a 												{background:none;}
+p#site_info 										{float:left; margin:-5px 0 0; line-height:1.5;}
+
+/* Lightbox Styles */
+#lightbox{	position: absolute;	left: 0; width: 100%; z-index: 100; text-align: center; line-height: 0;}
+#lightbox img{ width: auto; height: auto;}
+#lightbox a img{ border: none; }
+
+#outerImageContainer{ position: relative; background-color: #fff; width: 250px; height: 250px; margin: 0 auto; }
+#imageContainer{ padding: 10px; }
+
+#loading{ position: absolute; top: 40%; left: 0%; height: 25%; width: 100%; text-align: center; line-height: 0; }
+#hoverNav{ position: absolute; top: 0; left: 0; height: 100%; width: 100%; z-index: 10; }
+#imageContainer>#hoverNav{ left: 0;}
+#hoverNav a{ outline: none;}
+
+#prevLink, #nextLink{ width: 49%; height: 100%; background-image: url(data:image/gif;base64,AAAA); /* Trick IE into showing hover */ display: block; }
+#prevLink { left: 0; float: left;}
+#nextLink { right: 0; float: right;}
+#prevLink:hover, #prevLink:visited:hover { background: url(images/prevlabel.gif) left 15% no-repeat; }
+#nextLink:hover, #nextLink:visited:hover { background: url(images/nextlabel.gif) right 15% no-repeat; }
+
+#imageDataContainer{ font: 10px Verdana, Helvetica, sans-serif; background-color: #fff; margin: 0 auto; line-height: 1.4em; overflow: auto; width: 100%	; }
+
+#imageData{	padding:0 10px; color: #666; }
+#imageData #imageDetails{ width: 70%; float: left; text-align: left; }	
+#imageData #caption{ font-weight: bold;	}
+#imageData #numberDisplay{ display: block; clear: left; padding-bottom: 1.0em;	}			
+#imageData #bottomNavClose{ width: 66px; float: right;  padding-bottom: 0.7em; outline: none;}	 	
+
+#overlay{ position: absolute; top: 0; left: 0; z-index: 90; width: 100%; height: 500px; background-color: #000; }
+
+
+/* debug stuff */
+#secondary #debug 							{display:none;}
+}
